@@ -6,3 +6,7 @@ The script was originally written by [sunknudsen](https://github.com/sunknudsen)
 
 - Added **SentryCrash** location: `"$HOME/Library/Caches/SentryCrash`
 - Update Prompt to: `Move app data to trash (yes or n)?` 
+
+## TODO
+
+- Add `--show` option to show the locations.
