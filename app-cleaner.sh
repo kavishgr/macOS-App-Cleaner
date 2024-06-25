@@ -112,9 +112,10 @@ paths=($(printf "%s\n" "${paths[@]}" | sort -u));
 
 printf "%s\n" "${paths[@]}"
 
-printf "$red%s$normal" "Move app data to trash (y or n)? "
+
+printf "$red%s$normal" "Move app data to trash (yes or n)? "
 read -r answer
-if [ "$answer" = "y" ]; then
+if [ "$answer" = "yes" ]; then
   printf "%s\n" "Moving app data to trash…"
   sleep 1
   posixFiles=$(printf ", POSIX file \"%s\"" "${paths[@]}" | awk '{print substr($0,3)}')
