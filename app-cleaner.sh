@@ -66,6 +66,7 @@ locations=(
   "$HOME/Library/Application Support/CrashReporter"
   "$HOME/Library/Containers"
   "$HOME/Library/Caches"
+  "$HOME/Library/Caches/SentryCrash"
   "$HOME/Library/HTTPStorages"
   "$HOME/Library/Group Containers"
   "$HOME/Library/Internet Plug-Ins"
