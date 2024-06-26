@@ -4,7 +4,7 @@ The script was originally written by [sunknudsen](https://github.com/sunknudsen)
 
 ## Syntax
 
-```sh
+```console
 app-cleaner.sh /path/to/app.app
 
 app-cleaner.sh /path/to/app.app --show
@@ -31,7 +31,7 @@ Done
 
 Only show app data that will be removed:
 
-```shell
+```console
 ➜  ~ app-cleaner.sh /Applications/The\ Unarchiver.app --show
 Checking for running processes…
 Finding app data…
