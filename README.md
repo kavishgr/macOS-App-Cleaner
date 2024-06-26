@@ -49,7 +49,4 @@ Finding app data…
 
 - Added **SentryCrash** location: `"$HOME/Library/Caches/SentryCrash`
 - Update Prompt to: `Move app data to trash (yes or n)?` 
-
-## TODO
-
-- [x] Add `--show` option to show only the app data locations.
+- Added `--show` flag to only print the app data locations
