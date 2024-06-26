@@ -1,7 +1,9 @@
 #! /bin/bash
 
 if [ -z "$1" ] || [ "$1" = "--help" ]; then
-  printf "%s\n" "Usage: app-cleaner.sh /path/to/app.app"
+  printf "%s\n" "Usage:  app-cleaner.sh /path/to/app.app"
+  printf "\t%s\n" "app-cleaner.sh /path/to/app.app --show"
+  printf "\t%s\n" "app-cleaner.sh /path/to/app.app --help"
   exit 0
 fi
 
@@ -112,6 +114,11 @@ paths=($(printf "%s\n" "${paths[@]}" | sort -u));
 
 printf "%s\n" "${paths[@]}"
 
+for arg in "$@"; do
+    if [ "$arg" == "--show" ]; then
+        exit 0
+    fi
+done
 
 printf "$red%s$normal" "Move app data to trash (yes or n)? "
 read -r answer
