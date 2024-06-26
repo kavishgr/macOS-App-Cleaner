@@ -14,7 +14,7 @@ app-cleaner.sh /path/to/app.app --show
 
 Removing an app:
 
-```shell
+```console
 ➜  ~ app-cleaner.sh /Applications/The\ Unarchiver.app
 Checking for running processes…
 Finding app data…
