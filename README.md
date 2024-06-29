@@ -47,6 +47,8 @@ Finding app data…
 
 ## Modification
 
-- Added **SentryCrash** location: `"$HOME/Library/Caches/SentryCrash`
+- Added **SentryCrash** location: `$HOME/Library/Caches/SentryCrash`
+- Added **Services** location: `$HOME/Library/Services`
+- Added **Diagnostic Reports** location: `/Library/Logs/DiagnosticReports`
 - Update Prompt to: `Move app data to trash (yes or n)?` 
 - Added `--show` flag to only print the app data locations
